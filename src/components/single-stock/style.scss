@@ -1,0 +1,17 @@
+.single-stock {
+  border: 1px solid var(--black-1);
+  padding: 15px;
+  transition: background-color 0.1s ease-in-out;
+
+  &:hover {
+    background-color: var(--gray-1);
+  }
+
+  &__uid {
+    cursor: pointer;
+  }
+
+  strong {
+    color: var(--red-1);
+  }
+}

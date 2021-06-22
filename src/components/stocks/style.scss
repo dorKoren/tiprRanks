@@ -1,0 +1,32 @@
+.stocks {
+  padding: 40rem;
+
+  &__title {
+    text-align: center;
+    margin-bottom: 30rem;
+
+    .dolar {
+      color: var(--green-1);
+    }
+  }
+
+  &__form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+
+    label {
+      margin-inline-end: 10px;
+    }
+
+    [type="submit"] {
+      cursor: pointer;
+    }
+  }
+
+  &__wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(450rem, 1fr));
+    grid-gap: 15px;
+  }
+}
